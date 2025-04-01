@@ -20,20 +20,28 @@ Readable Date Format: Displays the date in "Month Day, Year" format.
 
 ## Usage Example
 
+'''
 Date date1 = new Date(1, 1, 2023);
 Date date2 = new Date(15, 5, 2020);
+'''
 
+'''
 date1.printDate(); // Output: January 1, 2023
 System.out.println("Day of the week: " + date1.getDayOfWeek());
 System.out.println("Days between dates: " + date1.calculateDifference(date2));
+'''
 
 ## Compilation & Execution
 
 1.Compile the program:
+'''
 javac Main.java
+'''
 
 2.Run the program:
+'''
 java Main
+'''
 
 ## Challenges & Improvements
 Leap Year Calculation: Ensuring correct leap year logic.
